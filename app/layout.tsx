@@ -15,8 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
-      <body className={dosis.className}>{children}</body>
+    <html lang='en' suppressHydrationWarning={true}>
+      <body className={dosis.className} suppressHydrationWarning={true}>
+        {children}
+      </body>
     </html>
   );
 }
