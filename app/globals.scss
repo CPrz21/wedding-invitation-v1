@@ -27,6 +27,9 @@ body {
 
   .section-container {
     padding: 48px 0;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
   }
 
   h1 {

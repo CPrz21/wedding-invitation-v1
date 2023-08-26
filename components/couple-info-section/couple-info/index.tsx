@@ -19,7 +19,7 @@ export const CoupleInfo = ({
   ...rest
 }: CoupleInfoProps) => {
   return (
-    <div className='w-full flex flex-col md:flex-row mb-8 md:mb-0'>
+    <div className='w-full flex flex-col md:flex-row md:mb-0'>
       <div
         className={`w-full md:w-1/2 h-64 md:h-auto ${
           imageSide === 'left' ? 'order-2' : 'order-4'
