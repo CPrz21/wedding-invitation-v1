@@ -1,0 +1,13 @@
+@import '../../../app/variables.module.scss';
+
+.primary {
+  color: $gray-color;
+  background-color: rgba($color: $aqua-soft-color, $alpha: 1);
+  border-color: rgba(94, 154, 142, 0.1);
+}
+
+.secondary {
+  color: $white-color;
+  background-color: rgba($color: $white-color, $alpha: 0.1);
+  border-color: rgba($color: $white-color, $alpha: 0.1);
+}

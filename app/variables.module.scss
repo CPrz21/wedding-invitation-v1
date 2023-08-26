@@ -1,0 +1,12 @@
+$primary-color: #5e9a8e;
+$dark-color: #3d3d3d;
+$gray-color: #767878;
+$aqua-soft-color: #eff5f3;
+$white-color: #fff;
+
+:export {
+  primaryColor: $primary-color;
+  darkColor: $dark-color;
+  grayColor: $gray-color;
+  aquaSoftColor: $aqua-soft-color;
+}
