@@ -4,7 +4,7 @@ import { EventCard } from './event-card';
 
 export const WeddingInfoSection = () => {
   return (
-    <section className='container mx-auto section-container'>
+    <section className='container mx-auto section-container !py-12 !md:py-0'>
       <SectionTitle text='Wedding Events' />
       <EventCard
         backgroundImageUrl='/images/reception-image.jpeg'
