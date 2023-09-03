@@ -7,8 +7,8 @@ export const Footer = () => {
     <footer className={`${Styles['footer-container']} py-28 relative`}>
       <h2
         className={`${great_vibes.className} text-center text-white relative z-20 text-4xl md:text-6xl`}>
-        Forever And Always <br />
-        Our Love
+        Por Siempre y Para Siempre <br />
+        Nuestro Cariño
       </h2>
     </footer>
   );

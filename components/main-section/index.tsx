@@ -10,7 +10,7 @@ export const MainSection = () => {
         <h1 className={`${great_vibes.className} text-white text-center`}>
           Victor & Osmara
         </h1>
-        <h4>WE'RE GETTING MARRIED</h4>
+        <h4>¡Acompañanos en nuestro día!</h4>
       </div>
       {/* //TODO: Do it last  */}
       {/* <div>

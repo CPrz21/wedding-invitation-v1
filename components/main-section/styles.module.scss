@@ -1,7 +1,9 @@
 .hero {
   background: url('/images/wedding-hero.jpeg') center center/cover no-repeat
     local;
-
+  @media (max-width: 1024px) {
+    background-position: 54% 50%;
+  }
   &::after {
     content: '';
     background-color: rgba(0, 0, 0, 0.3);

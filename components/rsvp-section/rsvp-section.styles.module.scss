@@ -1,5 +1,8 @@
 .rsvp-container-container {
-  background: url('/images/rsvp-bg.jpg') center center/cover no-repeat local;
+  background: url('/images/rsvp-bg.jpeg');
+  background-position: 0% 50%;
+  background-size: 111%;
+  background-repeat: no-repeat;
   &::after {
     content: '';
     background-color: rgba(0, 0, 0, 0.3);
@@ -8,5 +11,10 @@
     position: absolute;
     left: 0;
     top: 0;
+  }
+  @media (max-width: 1024px) {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

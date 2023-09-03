@@ -1,6 +1,11 @@
 .countdown-section-container {
-  background: url('/images/countdown-bg.jpg') center center/cover no-repeat
-    local;
+  background: url('/images/countdown-bg.jpeg');
+  background-position: 50% 28%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media (max-width: 1024px) {
+    background-position: center;
+  }
   &::after {
     content: '';
     background-color: rgba(0, 0, 0, 0.3);

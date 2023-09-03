@@ -1,5 +1,8 @@
 .footer-container {
-  background: url('/images/footer-bg.jpg') center center/cover no-repeat local;
+  background: url('/images/footer-bg.jpeg');
+  background-size: 100%;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
   &::after {
     content: '';
     background-color: rgba(0, 0, 0, 0.3);

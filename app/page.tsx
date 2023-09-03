@@ -1,5 +1,4 @@
 import { CountdownSection } from '@components/countdown-section';
-import { CoupleInfoSection } from '@components/couple-info-section';
 import { Footer } from '@components/footer';
 import { GiftsSection } from '@components/gifts-section';
 import { MainSection } from '@components/main-section';
@@ -10,7 +9,7 @@ export default function Home() {
   return (
     <main className=''>
       <MainSection />
-      <CoupleInfoSection />
+      {/* <CoupleInfoSection /> */}
       <CountdownSection />
       <WeddingInfoSection />
       <RSVPSection />

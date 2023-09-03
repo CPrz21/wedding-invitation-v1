@@ -27,7 +27,7 @@ export const RSVPSection = () => {
     <section
       className={`${Styles['rsvp-container-container']} py-28 relative text-center px-8`}>
       <span className='relative z-10'>
-        <SectionTitle text='Join Our Party' type='secondary' />
+        <SectionTitle text='Únete a nuestra fiesta' type='secondary' />
       </span>
       <h3 className='relative z-10 text-white text-center my-8 md:w-2/3 mx-auto'>
         Será muy especial contar contigo, no olvides confirmar tu asistencia a

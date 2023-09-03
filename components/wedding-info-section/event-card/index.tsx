@@ -32,16 +32,16 @@ export const EventCard = ({
         <p className='flex items-center text-gray-color gap-1 mb-2'>
           <FaLocationDot color='#5e9a8e' /> {locationText}
         </p>
-        <p className='flex items-center text-gray-color gap-1'>
+        <p className='flex items-center text-gray-color gap-1 my-4'>
           <FiClock color='#5e9a8e' /> {eventHourText}
         </p>
-        <p className='text-gray-color my-4'>{description}</p>
+        {/* <p className='text-gray-color my-4'>{description}</p> */}
         <a
           target='_blank'
           href={locationUrl}
           className='text-primary-color flex items-center gap-1'
           rel='noreferrer'>
-          <strong>See Location</strong>
+          <strong>Ver Ubicación</strong>
           <AiOutlineRight />
         </a>
       </div>
