@@ -17,7 +17,7 @@ export const CountdownSection = () => {
         <h1
           className={`${great_vibes.className} w-full md:w-2/5 text-shadow text-white z-20 text-center md:text-left mb-8 md:mb-0`}>
           <span className='block text-2xl mb-2 md:mb-4'>
-            Éres muy importante para nosotros
+            Eres muy importante para nosotros
           </span>
           Te Esperamos...
         </h1>
